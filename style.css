@@ -144,6 +144,16 @@ img {
   overflow: hidden;
 }
 
+@media (pointer: fine) and (hover: hover) {
+  html {
+    overflow-y: scroll;
+  }
+
+  .open html, .open body {
+    height: 100vh;
+  }
+}
+
 /* SNSメニュー */
 
 .sns {
